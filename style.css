@@ -1,0 +1,67 @@
+body{
+    background-color: white;
+}
+html, body { 
+    height: 100%; 
+    width: 100%;
+}
+#forName{
+    background-color: lightgreen;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 6.6vh;
+}
+#forProjects{
+    background-color: black;
+    position: absolute;
+    top: 6.6%;
+    left: 0;
+    width: 100vw;
+    height: 84vh;
+} 
+#forAccounts{
+    background-color: lightgreen;
+    position: absolute;
+    left: 0;
+    top: 91.45%;
+    width: 50vw;
+    height: 9.75vh;
+}
+#forLinks{
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 91.45%;
+    width: 50vw;
+    height: 9.75vh;
+    margin-left: 50%;
+}
+.project{
+    background: white;
+    position: relative;
+    width: 30%;
+    height: 40%;
+    margin-left: 2%;
+    margin-top: -1%;
+    float: left;
+    text-align: center;
+    overflow: scroll;
+}
+.anImage{
+    height: 40%;
+    width: 80%;
+    text-align: center;
+    margin: 5% 10%;
+}
+.sendToWebsite:hover{
+    background-color: lightgreen;
+}
+#forAccounts a img{
+    margin-left: 2.5%;
+    margin-top: 1%;
+    height: 70%;
+    width: 10%;
+    float: left;
+}
